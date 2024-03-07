@@ -1,0 +1,16 @@
+
+.checkbox-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+#reminder{
+  display:inline !important;
+  width:10%;
+}
+
+.checkbox-value{
+  display:inline-block;
+  /* font-size:2rem; */
+}

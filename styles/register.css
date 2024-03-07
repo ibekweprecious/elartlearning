@@ -1,0 +1,196 @@
+a{
+  text-decoration:none;
+}
+.sign__up--container{
+  display:flex;
+  margin-bottom:10rem;
+}
+
+.sign-up--form{
+  padding:6rem 3rem;
+  flex-grow:1;
+}
+
+.sign-up--img img{
+  vertical-align: top;
+  border-radius:2rem 0 0 2rem;
+  object-fit: cover;
+}
+
+.form__back-btn{
+  display:flex;
+  width: 2rem;
+  align-items:center;
+  justify-content:center;
+  padding:0.5rem;
+  background-color:transparent;
+  border:0.1rem solid rgba(104, 102, 102, 0.384);
+  border-radius:0.3rem;
+  cursor:pointer;
+}
+
+.sign__up--img img{
+  max-height:100%;
+}
+
+.form__header{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:3rem;
+  padding:3rem 0 8rem 5rem;
+}
+
+.form__main-heading{
+  font-size:3.5rem;
+  font-weight:500;
+  line-height:5.1rem;
+}
+
+.form__instruction{
+  display:block;
+  font-size:1.6rem;
+  text-align:center;
+}
+
+.polygon-top{
+  transform:translateY(-6rem);
+  margin-left:1rem;
+}
+
+
+/* form  */
+
+.main__form{
+  padding:0 0 0 4rem;
+}
+
+fieldset{
+  border:none;
+  margin-bottom:2rem;
+}
+
+label{
+  display:inline-block;
+  font-size:1.8rem;
+  font-weight:500;
+  color:rgba(0, 0, 0, 0.9);
+  margin-bottom:0.5rem;
+}
+
+input{
+  display:block;
+  width:100%;
+  padding:1.6rem 2rem;
+  background-color:rgba(242, 242, 242, 1);
+  border-radius:2.5rem;
+  border:none;
+}
+
+.create--acct{
+  display:block;
+  text-align:center;
+  color:rgba(0, 0, 0, 1);
+  background-color:rgba(238, 185, 16, 1);
+  padding:1.4rem 0;
+  border-radius:2.5rem;
+  margin:5rem 0 2rem 0;
+}
+
+
+.already-user{
+  display:block;
+  text-align:center;
+}
+
+.sign-link{
+  color:rgba(238, 185, 16, 1);
+  
+}
+
+
+@media only screen and (max-width: 1075px){
+  .form__main-heading{
+    text-align: center;
+  }
+
+  .heading--1{
+    font-size:2rem ;
+  }
+
+}
+
+
+@media only screen and (max-width: 979px){
+
+  .heading--1{
+    font-size:1.8rem ;
+  }
+
+}
+
+
+@media only screen and (max-width: 856px){
+
+  .sign__up--container{
+    display:block;
+    margin-bottom:10rem;
+  }
+
+  .sign-up--img{
+   display: none;
+   flex-direction: column;
+  }
+
+  .heading--1{
+    font-size:3rem ;
+  }
+
+}
+
+
+@media only screen and (max-width: 565px){
+
+  .heading--1{
+    font-size:2rem ;
+  }
+
+  .intro--header{
+    font-size: 3.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 511px){
+
+  .form__header{
+    padding-left: 0;
+  }
+
+  .sign-up--form,
+  .main__form{
+    padding: 0;
+  }
+
+}
+
+@media only screen and (max-width: 356px){
+
+  .intro--header{
+    font-size: 2.8rem;
+  }
+
+}
+
+@media only screen and (max-width: 295px){
+
+  .intro--header{
+    font-size: 2.2rem;
+  }
+
+}
+
+
+
+
+
